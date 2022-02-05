@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-component-library",
+  "name": "@312akim/ecommerce-react-component-lib",
   "version": "0.0.1",
   "description": "Ecommerce react component library",
   "scripts": {
@@ -24,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/312akim"
+  }
 }
