@@ -4,7 +4,7 @@ interface CardProps {
     text: string;
 }
 
-const Card = (props: CardProps) => {
+export const Card = (props: CardProps) => {
     return (
         <div style={{background: "blue"}}>
             {props.text}
@@ -12,4 +12,4 @@ const Card = (props: CardProps) => {
     );
 }
 
-export default Card;
+// export default Card;

@@ -4,7 +4,7 @@ interface Button2Props {
     label: string;
 }
 
-const Button2 = (props: Button2Props) => {
+export const Button2 = (props: Button2Props) => {
     return (
         <button style={{background: "blue"}}>
             {props.label}
@@ -12,4 +12,4 @@ const Button2 = (props: Button2Props) => {
     );
 }
 
-export default Button2;
+// export default Button2;
