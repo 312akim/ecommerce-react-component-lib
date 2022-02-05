@@ -6,10 +6,10 @@ interface ButtonProps {
 
 const Button = (props: ButtonProps) => {
     return (
-        <button>
+        <button style={{background: "red"}}>
             {props.label}
         </button>
     );
 }
 
-export default Button;
+export Button;
