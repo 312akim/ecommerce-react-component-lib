@@ -11,5 +11,3 @@ export const Card2 = (props: Card2Props) => {
         </div>
     );
 }
-
-// export default Card2;

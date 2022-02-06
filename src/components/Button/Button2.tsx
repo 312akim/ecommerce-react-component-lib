@@ -11,5 +11,3 @@ export const Button2 = (props: Button2Props) => {
         </button>
     );
 }
-
-// export default Button2;
