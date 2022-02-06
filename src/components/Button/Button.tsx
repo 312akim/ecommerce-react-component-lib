@@ -1,4 +1,6 @@
 import React from 'react';
+import './Button.css';
+import styled from "styled-components"
 
 interface ButtonProps {
     /** label for button */
@@ -12,8 +14,12 @@ interface ButtonProps {
  */
 export const Button = (props: ButtonProps) => {
     return (
-        <button style={{background: "red"}}>
+        <StyledButton style={{background: "red"}}>
             {props.label}
-        </button>
+        </StyledButton>
     );
 }
+
+const StyledButton = styled.button`
+    background: blue;
+`
