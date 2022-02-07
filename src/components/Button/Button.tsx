@@ -12,7 +12,7 @@ interface ButtonProps {
  * @param {ButtonProps} props Takes label prop
  * @returns returns button component
  */
-export const Button = (props: ButtonProps) => {
+const Button = (props: ButtonProps) => {
     return (
         <StyledButton style={{background: "red"}}>
             {props.label}
@@ -23,3 +23,5 @@ export const Button = (props: ButtonProps) => {
 const StyledButton = styled.button`
     background: blue;
 `
+
+export default Button;
