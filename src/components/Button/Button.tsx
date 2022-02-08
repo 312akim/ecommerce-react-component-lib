@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 import styled from "styled-components"
 
-interface ButtonProps {
+export interface ButtonProps {
     /** label for button */
     label: string;
 }
